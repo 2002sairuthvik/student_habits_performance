@@ -39,10 +39,13 @@ To predict the **exam_score** using student habits and behaviors with regression
    - Ridge Regression (Best Performing)  
    - Random Forest Regressor  
    - XGBoost Regressor
+   - Lasso Regression
+   - Decision Tree
+   - KNeighbour Regressor
 
 3. **Evaluation Metrics**
    - MAE, MSE, RMSE  
-   - R² Score
+   - Adjusted R² Score
 
 4. **Model Saving**
    - Exported the model using `joblib` for future use
